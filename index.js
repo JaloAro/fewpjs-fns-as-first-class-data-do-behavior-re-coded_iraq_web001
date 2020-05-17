@@ -27,5 +27,5 @@ if(timeParsed>17){
 
   let greetingMessage= document.getElementById('greeting');
   greetingMessage.innerText = message;
-  console.log(message);
+  
 }
