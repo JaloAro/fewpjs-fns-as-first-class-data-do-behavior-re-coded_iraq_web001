@@ -13,7 +13,7 @@ if(timeParsed<12){
 
   return "Good Morning"
 }
-if(timeParsed>12&&timeParsed<17){
+if(timeParsed>=12 && timeParsed<=17){
 
   return "Good Afternoon"
 }
