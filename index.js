@@ -1,23 +1,23 @@
 function handleClick(e) {
-  const timeString = document.getElementById('time').value
-  displayMessage(greet(timeString))
+  const timeStr = document.getElementById('time').value
+  displayMessage(greet(timeStr))
 }
 
 /* End Given Code, don't edit above here...*/
 
 /* Write your implementation of greet() */
-function greet(timeInString){
+function greet(timeIn){
 
-const parsed = parseInt(timeInString);
-if(parsed<12){
+const timeParsed = parseInt(timeIn);
+if(timeParsed<12){
 
   return "Good Morning"
 }
-if(parsed>12&&parsed<17){
+if(timeParsed>12&&timeParsed<17){
 
   return "Good Afternoon"
 }
-if(parsed>17){
+if(timeParsed>17){
 
   return "Good Evening"
 }
